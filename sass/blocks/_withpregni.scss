@@ -1,0 +1,74 @@
+.withpregni{
+    height:896px;
+    padding: 79px 0 81px 0;
+
+    &1{
+        justify-content: space-between;
+        display: flex;
+        div{
+            text-align: center;
+            position: relative;
+            span{
+                width: 230px;
+                position: absolute;
+                color: red;
+                z-index: 2;
+                top: 176px;
+                left: 50%;
+                transform: translateX(-50%);
+
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 1.44;
+                letter-spacing: normal;
+                text-align: center;
+                color: #393939;
+            }
+        }
+    }
+    &2{
+        text-align: center;
+        margin-top: 45px;
+        img{
+            
+            text-align: center;
+        }
+        h2{
+            margin-top: 27px;
+
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 0.8;
+            color: #393939;
+            text-transform: uppercase;
+        }
+    }
+    &3{
+        justify-content: space-between;
+        display: flex;
+        margin-top: 37px;
+        div{
+            text-align: center;
+            position: relative;
+            span{
+                width: 265px;
+                position: absolute;
+                color: red;
+                z-index: 2;
+                top: 176px;
+                left: 50%;
+                transform: translateX(-50%);
+
+                font-size: 18px;
+                font-weight: 700;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.44;
+                letter-spacing: normal;
+                text-align: center;
+                color: #393939;
+            }
+        }
+        
+    }
+}

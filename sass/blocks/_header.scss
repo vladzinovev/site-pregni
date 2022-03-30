@@ -1,0 +1,107 @@
+.header{
+    height: 700px;
+    background-image: url("../img/header.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding-top: 39px;
+    &_menu{
+        display: flex;
+        justify-content: space-between;
+        .nav{
+            margin-top: 25px;
+            width: 540px;
+            display: flex;
+            justify-content: space-between;
+            a{
+                color: #fff;
+                font-size: 13px;
+                font-weight: 700;
+                line-height: 2;
+                text-transform: uppercase;
+            }
+        }
+    }
+    .menu{
+        position: fixed;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		top: 0px;
+		left: -100%;
+		width: 50%;
+		height: 100vh;
+        z-index: 1;
+		padding: 30px 15px 0 55px;
+		background-color: rgba(238, 238, 238, 0.8);
+		transition: 0.6s all;
+        list-style-type: none;
+        
+		&_active {
+            left: 0;
+        }
+		&_item {
+            padding-right: 0;
+			border: none;
+			margin: 50px 0;
+        }
+		&_link {
+            font-size: 25px;
+        }
+    }
+    &_descr{
+        margin-top: 133px;
+        position: relative;
+        h1{
+            width: 527px;
+            font-size: 42px;
+            font-weight: 900;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.14;
+            letter-spacing: normal;
+            color: #fff;
+        }
+        h2{
+            margin-top: 27px;
+            width: 426px;
+            font-size: 24px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.25;
+            letter-spacing: normal;
+            color: #fff;
+        }
+        .btn1{
+            display: block;
+            margin-top: 39px;
+            padding: 20px 44px 20px 44px;
+            width: 241px;
+            height: 60px;
+            box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.07);
+            background-color: #00c2f0;
+            border: none;
+            border-radius: 2px;
+
+
+           
+            font-size: 16px;
+            font-weight: 700;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.20;
+            letter-spacing: normal;
+            color: #fff;
+            text-transform: uppercase;
+            &:hover{
+                box-shadow: 3px 3px 20px #fff;
+            }
+        }
+        img{
+           position: absolute;
+           top: -110px;
+           right: 0;
+        }
+        
+    }
+}

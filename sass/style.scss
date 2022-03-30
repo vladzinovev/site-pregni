@@ -1,0 +1,25 @@
+@import '../sass/base/variables';
+@import '../sass/base/mixins';
+
+* {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/flags';
+@import 'blocks/header';
+@import 'blocks/withpregni';
+@import 'blocks/photo-album';
+@import 'blocks/advantage';
+@import 'blocks/options';
+@import 'blocks/connect';
+@import 'blocks/footer';
+@import 'blocks/media';

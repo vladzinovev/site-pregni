@@ -1,0 +1,84 @@
+.options{
+    height: 580px;
+    padding-top: 79px;
+    background-image:url('../img/main.jpg');
+    background-position: center center;
+    background-size: cover;
+    
+    &_main{
+        .h3big{
+            font-size: 30px;
+            font-weight: 900;
+            text-align: center;
+            color: #fff;
+        }
+        &-blocks{
+            
+            display: flex;
+            width: 1130px;
+            justify-content: space-between;
+            margin: 0 auto;
+            .options_block1{
+                position: relative;
+                margin-top: 128px;
+                width: 520px;
+                text-align: right;
+                .h3small1{     
+                    text-transform: uppercase;              
+                    font-size: 30px;
+                    font-weight: 900;
+                    margin-right: 35px;                   
+                    color: #fff;
+                    margin-bottom: 15px;
+                }                
+                .span1{
+                    margin-right: 35px;
+                    font-size: 18px;
+                    font-weight: 300;                    
+                    color: #fff;
+                }                
+                .square1{
+                    position: absolute;
+                    top: -30px;
+                    width: 167px;
+                    height: 167px;
+                    margin: 0 0 0 355px;
+                    opacity: 0.3;
+                    background-color: #00c2f0;
+                }
+            }
+            .options_block2{
+                position: relative;
+                margin-top: 128px;
+                width: 520px;
+                text-align: left;
+                .h3small2{           
+                    text-transform: uppercase;           
+                    margin-left: 35px;
+                    font-size: 30px;
+                    font-weight: 900;
+                    color: #fff;
+                    margin-bottom: 15px;
+                }
+                .span2{
+                    margin-left: 35px;
+                    width: 480px;
+                    font-size: 18px;
+                    font-weight: 300;
+                    color: #fff;
+                }
+                .square2{
+                    top: -30px;
+                    left: -357px;
+                    
+                    position: absolute;
+                    width: 167px;
+                    height: 167px;
+                    margin: 0 0 0 355px;
+                    opacity: 0.3;
+                    background-color: #00c2f0;
+                }
+            }
+        }
+    }
+}

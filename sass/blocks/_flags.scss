@@ -1,0 +1,38 @@
+.flags{
+    min-height: 85px;
+    background-color:rgb(238, 238, 238);
+    padding: 20px 0 20px 0;
+    .flex{
+        display: flex;
+    }
+    &_country{
+        display: flex;
+        width: 228px;
+        height: 50px;
+        img{
+            margin-top: 5px;
+            margin-right: 11px;
+            width: 28px;
+            height: 21px;
+            border-radius:15%;
+        }
+        &-descr{
+            h3{
+                margin:0;
+                font-size: 14px;
+                font-weight: 700;
+                color: #242424;
+            }
+            .address{
+                line-height: 1.6;
+            }
+            div{
+                font-size: 12px;
+                font-weight: 300;  
+                text-align: left;
+                color: #242424;
+            }
+        }
+    }
+
+}

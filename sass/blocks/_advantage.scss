@@ -1,0 +1,39 @@
+.advantage{
+    min-height: 1334px;
+    padding: 81px 0 80px 0 ;
+    &_main{
+        h3{
+            font-size: 30px;
+            font-weight: 900;
+            line-height: 1.2;
+            text-align: center;
+            color: #393939;
+        }
+        &-grids{
+            margin-top: 44px;
+            display: grid;
+            grid-template:repeat(3, 355px)/ 570px 570px ;
+            img{
+            }
+            &-grid{
+                position: relative;
+                
+                .block_grid{
+                    position: absolute;
+                    width: 570px;
+                    height: 156px;
+                    background-color: rgba(#000,0.44);
+                    z-index: 1;
+                    top: 100px;
+                    padding: 40px 114px 0 114px ;
+                    text-align: center;
+                    &-text{
+                        font-size: 23px;
+                        line-height: 1.13;
+                        color: rgba(#fff,0.75);
+                    }
+                }
+            }
+        }
+    }
+}
